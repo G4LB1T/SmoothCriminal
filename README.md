@@ -14,11 +14,13 @@ My aim is to show that there are many ways to create new evasion techniques, yet
 ## HOWTO
 ### Mean Mode
 Execute with the flag *-mean*
+
 The script will accumulate the mouse speed values (only if a movement occurred) and will return the average of all speeds.
 In a sandbox, the cursor only jumps so the average will be much higher.
 
 ### Max Mode
 Execute with the flag *-max*
+
 It will run similarly, yet instead of the average it will return the maximal speed.
 This technique can trigger a false positive if a flesh and blood user moves its cursor extremely fast.
 
