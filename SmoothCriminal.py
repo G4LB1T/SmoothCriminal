@@ -102,7 +102,7 @@ if __name__ == '__main__':
             print "Castles made of sand"
         else:
             # do bad stuff, we are clear
-            "Let the games begin"
+            print "Let the games begin"
 
     elif args.mean:
         avg = mean_mouse_speed(10)
@@ -111,6 +111,6 @@ if __name__ == '__main__':
         if avg > 20:
             print "This is a box of sand"
         else:
-            "gogogo"
+            print "gogogo"
     else:
         print "please provide either -mean or -max flags"
