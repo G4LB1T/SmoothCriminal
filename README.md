@@ -1,11 +1,13 @@
 # SmoothCriminal
-Detect sandbox by cursor movement speed
+Detect sandbox by cursor movement speed and clicking speed and location.
 
 ## About
 This tool was created as a demonstration for my talk about vaccination @ BSdiesLV 2017.
 It is an example for a simple technique to bypass many sandboxes by monitoring mouse movements.
 While many tools and malware looks if the mouse moved at all, my tool checks if the movement was smooth by applying basic calculus.
 There are some thresholds I set in advance - feel free to play with it.
+Timing and Location modes recently added also allow you to detect sandbox by monitoring clicking speed and location, which are often hard coded.
+
 Will be glad to get your feedback @ https://twitter.com/Gal_B1t
 
 ## Goal
